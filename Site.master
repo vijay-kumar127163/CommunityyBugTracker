@@ -1,0 +1,21 @@
+<%@ Master Language="C#" %>
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title>Bug Tracker Admin</title>
+    <link rel="stylesheet" href="admin.css" />
+</head>
+<body>
+    <form id="mainForm" runat="server">
+        <header>
+            <strong>Bug Tracker Admin</strong>
+            <a href="Default.aspx">Reports</a>
+            <a href="Categories.aspx">Categories</a>
+        </header>
+        <main>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </main>
+    </form>
+</body>
+</html>
